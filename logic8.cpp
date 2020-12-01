@@ -71,6 +71,8 @@ void BFS() {
 	for (int i = 0; i < m; i++) {
 
 		printf("%d ", ex[i]);
+		if (ex[i] == 0)
+			continue;
 		if (ex[i] > dia)
 			dia = ex[i];
 		if ((ex[i] < rad) && (ex[i] != -1))
@@ -101,13 +103,7 @@ void BFS() {
 				printf("%d ", i + 1);
 		}
 	}
-	/* алгоритм говно и работает, но криво
-	printf("\nКонцевые вершины: \n");
-	for (int i = 0; i < m; i++) {
-		if (v[i] > ((m - 2) * 2) + 1 + k)
-			printf("%d ", i + 1);
-	}
-	*/
+	
 	printf("\nКонцевые вершины: \n");
 	for (int i = 0; i < m; i++) {
 		if (e[i] == h)
