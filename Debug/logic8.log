@@ -1,0 +1,5 @@
+﻿  logic8.cpp
+C:\Users\zorro\source\repos\logic8\logic8.cpp(139,12): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+C:\Users\zorro\source\repos\logic8\logic8.cpp(137,6): warning C4101: start: неиспользованная локальная переменная
+C:\Users\zorro\source\repos\logic8\logic8.cpp(200,1): warning C4326: возвращаемый тип "main" должен быть "int", а не "void"
+  logic8.vcxproj -> C:\Users\zorro\source\repos\logic8\Debug\logic8.exe
